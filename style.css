@@ -126,6 +126,9 @@ cursor: pointer;
 .table-container {
     width: auto;
     overflow-x: auto;
+    border-inline: solid;
+    border-color: rgb(192, 208, 255);
+    border-width: 1px;
 }
 .table-container::-webkit-scrollbar {
     height: 5px; 
@@ -148,6 +151,7 @@ cursor: pointer;
 .responsive-table th, 
 .responsive-table td {
     border: 1px solid rgb(192, 208, 255);
+    border-inline: none;
     padding: 8px;
     font-weight: 300;
     text-align: left;
